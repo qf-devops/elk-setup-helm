@@ -6,5 +6,6 @@ kibana:
 helm install elk-kibana elastic/kibana -f values-2.yamls
 
 logstash:
- helm install elk-logstash elastic/logstash -f values-2.yaml
+ helm install elk-logstash elastic/logstash -f values2-ls.yaml
  
+ref: https://blog.knoldus.com/how-to-deploy-elk-stack-on-kubernetes/
